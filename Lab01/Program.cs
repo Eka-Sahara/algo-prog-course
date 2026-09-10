@@ -1,1 +1,11 @@
-﻿Console.WriteLine("Hello, World!");
+﻿string myName = "Екатерина Сахабутдинова";
+string groupName = "ИСП-252";
+int courseNumber = 2;
+double averageGrade = 4.6;
+bool isBudget = true;
+System.Console.WriteLine("Знакомство");
+System.Console.WriteLine($"Студент: {myName}");
+System.Console.WriteLine($"Студент: {groupName}");
+System.Console.WriteLine($"Курс: {courseNumber}");
+System.Console.WriteLine($"Средний балл: {averageGrade}");
+System.Console.WriteLine($"Бюджетное место: {isBudget}");
