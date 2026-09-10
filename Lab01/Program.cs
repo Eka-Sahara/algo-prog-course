@@ -75,3 +75,22 @@ const int MonthsInSemester = 4;
 int remainderMonth = remainder * MonthsInSemester;
 System.Console.WriteLine($"Оставшиеся деньги за весь семестр: {remainderMonth}");
 
+
+System.Console.WriteLine();
+System.Console.WriteLine("Конвертер температур");
+double celsius = 18.2;
+const double num = 273.15;
+double farengeith = celsius * 9 / 5 + 32;
+double kelvin = celsius + num;
+System.Console.WriteLine($"{celsius}, ={farengeith}F, ={kelvin}K");
+
+
+
+Console.WriteLine();
+int totalMinutes = 500;
+int minutesPerLesson = 45;
+
+int maxLessons = totalMinutes / minutesPerLesson;
+int remainingTime = totalMinutes % minutesPerLesson;
+
+Console.WriteLine($"{totalMinutes} минут = {maxLessons} + {remainingTime} минут");
